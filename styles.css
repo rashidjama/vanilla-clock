@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.digital__clock {
+  width: 320px;
+  height: 180px;
+  text-align: center;
+  margin: 6rem auto;
+  background-image: url(/images/clock-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.clock__inner {
+  width: 320px;
+  height: 180px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: fantasy;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+.clock__list {
+  margin: 1rem;
+  display: flex;
+  font-size: 2rem;
+  font-family: Orbitron;
+  padding: 1.5rem 0 1.5rem 4.5rem;
+  border-radius: 10px;
+}
+
+.list__item {
+  list-style: none;
+  color: rgb(87, 215, 87);
+}
